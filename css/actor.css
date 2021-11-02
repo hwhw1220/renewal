@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+body { font-family: 'Raleway', sans-serif; overflow-x:hidden;}
+body.bgon { background:#D5D5D5 }
+
+
+
+/* 메뉴변경 */
+.navi .subMenu li { 
+    font-size:19px;
+    margin-left:20px; 
+    color:#000;
+    font-weight:normal;
+    padding-top:5px
+}
+.navi .subMenu li:nth-child(2) a {
+    border-bottom:1px solid #000;
+    color:#00549D;
+    font-weight:bold;
+}
+.subMenu li:hover { transform:translate(10px) }
+
+/* container 시작 */
+#container {
+    width:calc(100% - 250px);
+    margin-left:300px;
+    padding:0 150px 0 0;
+}
+
+.location_area h2.tit_page {
+    padding:70px 0 0 0;
+    border-bottom:1px solid #ccc;
+    font-size:30px; color:#000; letter-spacing:3px;
+}
+
+.actor li { transition:all 0.3s }
+.actor img {
+    width:300px; height:300px
+}
+.actor p { 
+    position:absolute;
+    top:60%; left:10%;
+    color:#ddd; font-size:40px;
+    opacity:0; transition:all 0.3s;
+    font-weight:bold;
+    font-family: 'Single Day', cursive;
+}
+.actor_1 { margin:30px }
+.actor_1 li {
+    float:left;
+    width:33.33%;
+}
+.actor li:hover { 
+    opacity:0.5;
+    transform:rotate(20deg);
+}
+.actor li:hover p {
+    opacity:1;
+}
+
+

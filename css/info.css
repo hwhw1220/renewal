@@ -1,0 +1,94 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100&family=Shadows+Into+Light&display=swap');
+
+.row { max-width:1200px; margin:0 auto; }
+body { font-family: 'Raleway', sans-serif; overflow-x:hidden;}
+body.bgon { background:#D5D5D5 }
+
+
+
+/* 메뉴 변경 */
+.navi .subMenu li { 
+    font-size:19px;
+    margin-left:20px;
+    margin-bottom:5px;
+    color:#000;
+    font-weight:normal;
+}
+.navi .subMenu li:first-child a {
+    border-bottom:1px solid #000;
+    color:#00549D;
+    font-weight:bold;
+}
+.subMenu li:hover { transform:translate(10px) }
+
+
+/* history 시작 */
+#container {
+    width:calc(100% - 300px);
+    margin-left:300px;
+    margin-bottom:100px;
+    padding:0 150px 0 0;
+}
+
+.location_area h2.tit_page {
+    padding:70px 0 0 0;
+    border-bottom:1px solid #ccc;
+    font-size:30px; color:#000; letter-spacing:3px;
+}
+
+.talk { 
+    margin:70px 0 20px 20px;
+    text-align:center;
+}
+.talk h2 { 
+    background-color:#00549D;
+    color:#fff;
+    padding:5px 0;
+}
+.ftcolor { 
+    color:#747474;
+    text-align:left;
+}
+.explanation { margin-top:20px }
+.explanation span { color:#00549D; font-weight:bold }
+
+.talk2 { 
+    margin:70px 0 20px 20px;
+    text-align:center;
+}
+.talk2 h2 {
+    background-color:#00549D;
+    color:#fff;
+    padding:5px 0;
+}
+
+
+/* footer구간 */
+#footer { 
+    width:100%; 
+    height:200px; 
+    background-color:#f1f1f1;
+    position:relative;
+}
+#footer .logo1 { float:left }
+#footer .logo1 > img {
+    position:absolute;
+    top:30%
+}
+#footer .menu1 { display:none }
+#footer .menu1.on { display:block } 
+.foot_list { 
+    float:right; 
+    position:relative;
+    top:40px;
+}
+.foot_list li { float:left; padding-right:10px }
+.foot_list .info { color:blue; font-weight:bold }
+
+.copy { 
+    position:absolute;
+    top:40%; left:50%
+}

@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+.row { max-width:1200px; margin:0 auto; }
+.row1 { max-width:1050px; margin:0 auto; }
+.row2 { max-width:900px; margin:0 auto; }
+body { font-family: 'Raleway', sans-serif; overflow-x:hidden;}
+body.bgon { background:#D5D5D5 }
+
+
+/* 메뉴변경 */
+.navi .subMenu li { 
+    font-size:19px;
+    margin-left:20px; 
+    color:#000;
+    font-weight:normal;
+    padding-top:5px
+}
+.subMenu li:hover { transform:translate(10px) }
+.subMenu li:first-child a {
+    border-bottom:1px solid #000;
+    color:#00549D;
+    font-weight:bold;
+}
+/* container 시작 */
+#container {
+    width:calc(100% - 300px);
+    margin-left:300px;
+    padding:0 150px 0 0;
+}
+
+.location_area h2.tit_page {
+    padding:70px 0 0 0;
+    border-bottom:1px solid #ccc;
+    font-size:30px; color:#000; letter-spacing:3px;
+}
+.contact { margin:200px 250px }
+.contact h2 { 
+    color:#0000B7; 
+    padding-right:20px;
+    font-weight:bold;
+}
+.contact p { color:#5D5D5D }
+.con1 { display:flex; margin-bottom:50px }
+.con2 { display:flex }
