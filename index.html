@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cube Entertainment</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="./js/prefixfree.min.js"></script>
@@ -15,42 +16,77 @@
 </head>
 
 <body>
-    <!-- 첫 페이지에 나올거 -->
-    <!-- <div class="loding">
-        <img src="./image/cube.png" alt="">
-    <div class="loding_text">
-        <p>CUBE</p>
-    </div> -->
 
     <header id="header">
         <div class="logo">
             <a href="#"><img src="./image/logo.jpg" alt=""></a>
-            <ul>
-                <li><a href="#">COMPANY</a></li>
-                <li><a href="#">ARTISTS</a></li>
-                <li><a href="#">MULTIMEDIA</a></li>
-                <li><a href="#">AUDITION</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
+            <div class="ham"><i class="fas fa-bars"></i></div>
         </div>
+        <div class="pcmob">
+            <div class="top">
+                <h1><img src="./image/topmenu_01.png" alt=""></h1>
+                <a href="javascript:;"><i class="far fa-times-circle"></i></a>
+                <div class="maininfo">
+                    큐브엔터테인먼트입니다.<br>
+                    로그인을 해주세요
+                </div>
+                <div class="membership">
+                    <a href="login.html">로그인</a>
+                    <a href="join.html">회원가입</a>
+                </div>
+            </div>
+            <nav class="menu">   
+                <ul class="navi">
+                    <li><a href="info.html">COMPANY</a><i class="fas fa-angle-double-right"></i>
+                        <ul class="sub depth2">
+                            <li><a href="#none">INFO</a></li>
+                            <li><a href="#none">HISTORY</a></li>
+                            <li><a href="#none">LOCATION</a></li>
+                        </ul>
+                    </li> 
+                    <li><a href="artists.html">ARTISTS</a><i class="fas fa-angle-double-right"></i>
+                        <ul class="sub_1 depth2">
+                            <li><a href="#none">SINGER</a></li>
+                            <li><a href="#none">ACTOR</a></li>
+                            <li><a href="#none">ENTERTAINMENT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="multimedia.html">MULTIMEDIA</a><i class="fas fa-angle-double-right"></i></li>
+                    <li><a href="#">AUDITION</a><i class="fas fa-angle-double-right"></i></li>
+                    <li><a href="contact.html">CONTACT</a><i class="fas fa-angle-double-right"></i></li>
+                </ul>
+            </nav>
+            <div class="mosns">
+                <a href="#none"><i class="fab fa-facebook-square"></i></a>
+                <a href="#none"><i class="fab fa-instagram-square"></i></a>
+                <a href="#none"><i class="fab fa-twitter-square"></i></a>
+                <a href="#none"><i class="fab fa-youtube-square"></i></a>
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </header>    
         <div class="util">
             <ul class="login">
-                <li><a href="#">login</a><li>
-                <li><a href="#">join</a></li>
+                <li><a href="login.html">login</a><li>
+                <li><a href="join.html">join</a></li>
             </ul>
-        
         </div>
+
         <div class="sns">
-            <ul>
+            <ul class="snsnone">
                 <li><a href="#"><i class="fas fa-adjust"></i></a></li>
                 <hr>
                 <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
                 <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
                 <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-            </ul>
+           </ul>
+            <p class="to_top">
+                <a href="#"><i class="fas fa-chevron-up"></i></a>
+            </p>
         </div>
-    </header>
 
     <section id = "section">
         <div class ="container">
@@ -66,7 +102,7 @@
             </div>
         </div>
 
-        <div id = "content">
+        <div id= "content">
             <div class="news row">
                 <div class="bgbox">
                     <h2>TWITTER</h2>
@@ -87,24 +123,94 @@
                         
                         <div class="news3">
                             <h2>LIGHTSUM</h2>
-                            <a href="#"><img src="./image/news3.PNG" alt=""></a></div>
+                            <a href="#"><img src="./image/news3.PNG" alt=""></a>
+                        </div>
                     </div>
-                    
+
+                    <div class="news_content1">
+                        <div class="news4">
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            <img src="./image/news4.PNG" alt="">
+                        </a>
+                        </div>
+                        <div class="news5">
+                            <h2>(G)I-DLE</h2>
+                            <a href="#"><img src="./image/news5.PNG" alt=""></a>
+                        </div>
+                        <div class="news6">
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            <img src="./image/news6.PNG" alt="">
+                        </a>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
 
+        <div id="star">
+            <h2>STARS</h2>
+            <p>I WAS BRON TO DO MUSIC.</p>
+            <a href="#"><img src="./image/arrow.png" alt=""></a>
+        </div>
+        <div id="multimedia">
+            <h2>MULTIMEDIA</h2>
+            <div class="model"><img src="./image/multi2.PNG" alt=""></div>
+        <div class="slideOut1">
+            <div class="slideInner1">
+                <div class="miniSld"><a href="#none"><img src="./image/multi2.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi3.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi4.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi5.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi6.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi7.PNG" alt=""></a></div>
+            </div>
+            <div class="slideInner2">
+                <div class="miniSld"><a href="#none"><img src="./image/multi8.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi9.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi10.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi11.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi12.PNG" alt=""></a></div>
+                <div class="miniSld"><a href="#none"><img src="./image/multi13.PNG" alt=""></a></div>
+            </div>
+        </div>
+        </div>
+        
+        <footer id="footer">
+            <div class="fot">
+                <div class="logo1 cf">
+                    <img src="./image/footerlogo.PNG" alt="">
+                </div>
+                <div class="foot_list cf">
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이메일주소 무단수집거부</a></li>
+                        <li class="info"><a href="#">개인정보취급방침</a></li>
+                        <a href="#none"><img src="./image/footermenu.png" alt=""></a>
+                        <div class="menu1"><img src="./image/footermenu1.png" alt=""></div>
+                    </ul>
+                </div>
+                <div class="copy cf">
+                    <p>7F,83,ACHASAN-RO, SEONGDONG-GU, SEOUL, 04793 KOREA TEL: 82-2-3445-1045</p>
+                    <P>COPYRIGHT &copy; CUBE ENTERTAINMENT INC, ALL RIGHT RESERVED.</P>
+                </div>
+            </div>
+        </footer>
 
-
-
-
-    </section>
+        <div class="introAni">
+            <div><i class="fas fa-circle-notch fa-spin"></i></div>
+            <div>0%</div>
+        </div>
     
     
 
-
-
-
-<script src="./js/index.js"></script>    
+<script src="./js/common.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>
